@@ -12,7 +12,7 @@ export default function App() {
         onMouseLeave={() => setTip(false)}
         style={{
           margin: "auto",
-          marginTop: "40%",
+          marginTop: "200px",
           padding: "15px",
           borderRadius: "1.5rem",
           cursor: "pointer"
@@ -20,7 +20,7 @@ export default function App() {
       >
         HOVER
       </button>
-      <h1 className={`${tip ? "display" : ""}`}>Hi,I am tooltip!</h1>
+      <h1 className={`${tip ? "" : "display"}`}>Hi,I am tooltip!</h1>
     </div>
   );
 }
